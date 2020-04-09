@@ -1,5 +1,5 @@
 const hello = require('./hello');
 
-test('outputs the correct string', () => {
+test('Строка, которую возвращает функция hello должна быть равна Hello world!', () => {
   expect(hello()).toBe("Hello world!");
 });
